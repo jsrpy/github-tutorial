@@ -34,3 +34,13 @@ You should now able to git push -u origin master
 5. Drop codes and files you wish to publish in that folder.
 6. `git add *` > `git commit -m 'some message'` > `git push`
 7. Refresh your github repo page and you should see your codes and files uploaded!
+
+# To Sync Updates from Github
+
+When your collaborators or others make new changes to a repo, your local is no longer *synced* or updated.
+
+So whenever before doing anything, you should:
+
+1. `git fetch` to check if there are any new changes.
+2. `git pull` to *pull* all new changes to your loca.
+3. Viola, you are now up-to-dated and you can add changes on your machine and push your works!
