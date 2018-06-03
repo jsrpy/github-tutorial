@@ -1,7 +1,7 @@
 # This repo contains tutorial to Git and particularly GitHub
 
 Several important topics include:
-1. [Git command (this readme)]()
+1. [Git command (this readme)](readme.md)
 2. [Licence Explained](licence_explanied.md)
 
 # create a new repository on the command line
