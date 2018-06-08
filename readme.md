@@ -3,7 +3,7 @@
 Several important topics include:
 1. [Git command (this readme)](readme.md)
 2. [Licence Explained](licence_explanied.md)
-
+___
 ### create a new repository on the command line
 * echo "# testing" >> README.md
 * git init
