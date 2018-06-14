@@ -51,5 +51,10 @@ So whenever before doing anything, you should:
 2. `git pull` to *pull* all new changes to your loca.
 3. Viola, you are now up-to-dated and you can add changes on your machine and push your works!
 
+### Deleting Files
+If you manually delete some files in your local folder:
+1. `git add *` will not stage the deleted files (check it with `git status`).
+2. Use `git add -u` instead to stage the deleted files before committing.
+
 ## Good References
 1. [An Intro to Git and GitHub for Beginners](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)
